@@ -112,7 +112,7 @@
     <main>
       <article>
         <!-- insert iframe from youtube -->
-        <iframe width="400" height="225" src="https://www.youtube.com/embed/ojcNcvb1olg"></iframe>
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/ojcNcvb1olg" title="Choose Independent - Choose Firefox"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h2>Rocking the free web</h2>
 
         <p>Mozilla are a global community of technologists, thinkers, and builders, working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
@@ -131,13 +131,13 @@
         <a href="https://www.mozilla.org/">
           <img  srcset="mozilla-dinosaur-head120.png 120w, mozilla-dinosaur-head400.png 400w "
                 sizes="(max-width: 500px) 120px, 400px"
-                src="mozilla-dinosaur-head400.png" 
+                src="mozilla-dinosaur-head.png" 
                 alt="mozilla dinosaur">
         </a>
         <a href="https://addons.mozilla.org/">
           <img  srcset="firefox-addons120.jpg 120w, firefox-addons400.jpg 400w "
                 sizes="(max-width: 500px) 120px, 400px"
-                src="firefox-addons400.jpg" 
+                src="firefox-addons.jpg" 
                 alt="firefox addons">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
@@ -150,13 +150,9 @@
       <div class="red-panda">
         <!-- insert picture element -->
         <picture>
-          <source media="(max-width: 600px)" srcset="red-panda-portrait-small.jpg">
-        
-          <!-- Hiển thị hình ảnh landscape khi độ rộng >= 600px -->
+          <source media="(max-width: 599px)" srcset="red-panda-portrait-small.jpg">
           <source media="(min-width: 600px)" srcset="red-panda-landscape.jpg">
-          
-          <!-- Hình ảnh mặc định (nếu trình duyệt không hỗ trợ <picture> hoặc media queries) -->
-          <img src="red-panda-landscape.jpg">
+          <img src="red-panda.jpg" alt="panda">
         </picture>
       </div>
 
